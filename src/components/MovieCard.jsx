@@ -8,10 +8,10 @@ import { useMovieContext } from "../Context/MovieContext";
 
     function favoriteMovie(e) {
         e.preventDefault()
-        if (favorit) {
-            removeFavorite(item.id)
-        } else {
+        if (!favorit) {
             addFavorite(item)
+        } else {
+            removeFavorite(item.id)
         }
     }
 
