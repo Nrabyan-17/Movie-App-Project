@@ -8,7 +8,7 @@ import { useMovieContext } from "../Context/MovieContext";
 
     function favoriteMovie(e) {
         e.preventDefault()
-        if (!favorit) {
+        if (!favorit) { // --> Jika filmnya masih belum masuk kategori favorit, maka film tersebut dapat ditambahkan ke kategori favorit
             addFavorite(item)
         } else {
             removeFavorite(item.id)
