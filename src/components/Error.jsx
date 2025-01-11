@@ -5,8 +5,8 @@ import "../css/Error.css";
 const Error = () => {
   return (
     <>
-      <div class="error">
-        <div class="error__icon">
+      <div className="error">
+        <div className="error__icon">
           <svg
             fill="none"
             height="24"
@@ -20,8 +20,8 @@ const Error = () => {
             ></path>
           </svg>
         </div>
-        <div class="error__title">Mohon maaf, program anda mengalami error!</div>
-        <div class="error__close">
+        <div className="error__title">Mohon maaf, program anda mengalami error!</div>
+        <div className="error__close">
           <svg
             height="20"
             viewBox="0 0 20 20"

@@ -82,7 +82,7 @@ const HomePage = () => {
 
          <p className="text">{search}</p>
 
-         {errorMessage && <p className="pesan-error">{errorMessage}</p>}
+         { errorMessage && <p className="pesan-error">{errorMessage}</p> }
 
           {loading ? (
           <Loading />
